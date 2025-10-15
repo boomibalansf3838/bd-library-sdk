@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "BD-SAMPLE-SDK"
+  s.name             = "bd-library-sdk"
   s.version          = "1.0.1"
   s.summary          = "BD solves the most common problems for small to medium businesses across different industries."
   s.description      = <<-DESC
