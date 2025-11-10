@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BolddeskSupportSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 @_exported import BolddeskSupportSDK
 import Combine
 import CoreText
@@ -10,6 +10,7 @@ import Foundation
 import MobileCoreServices
 import Network
 import PhotosUI
+import QuickLook
 import SafariServices
 import Swift
 import SwiftUI
@@ -18,6 +19,7 @@ import UniformTypeIdentifiers
 import WebKit
 import _Concurrency
 import _PhotosUI_SwiftUI
+import _QuickLook_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
 import _WebKit_SwiftUI
@@ -25,21 +27,21 @@ public struct BDPortalConfiguration {
   public static var customFontName: Swift.String?
 }
 public struct BolddeskSDK {
-  public static var isShowKB: Swift.Bool
-  public static var isShowTicket: Swift.Bool
   public static var applyDefaultFont: Swift.Bool
-  public static func initialize(appID: Swift.String, orgId: Swift.String, domainURL: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func initialize(appId: Swift.String, brandURl: Swift.String, _ successCallback: ((Swift.String?) -> Swift.Void)? = nil, _ errorCallback: ((Swift.String?) -> Swift.Void)? = nil)
+  #endif
+  public static func logOut()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func LoginWithJWTToken(jwtToken: Swift.String, _ successCallback: ((Swift.String?) -> Swift.Void)? = nil, _ errorCallback: ((Swift.String?) -> Swift.Void)? = nil)
+  #endif
   public static func setup()
   public static var Theme: BolddeskSupportSDK.SDKTheme {
     get
     set
   }
   public static func setPreferredTheme(_ theme: BolddeskSupportSDK.SDKTheme)
-  public static func loginJwt(token: Swift.String)
   public static func reset()
-  public static func setHeaderLogo(imageLink: Swift.String)
-  public static func set(header: Swift.String = "", description: Swift.String = "", kbTitle: Swift.String = "", kbDescription: Swift.String = "", ticketTitle: Swift.String = "", ticketDescription: Swift.String = "")
-  public static func setSubmitTicket(formTitle: Swift.String = "", submitButtonText: Swift.String = "")
   public static func applyTheme(accentColor: Swift.String = "", primaryColor: Swift.String = "")
   public static func showKB()
   public static func showSubmitTicket()
@@ -50,6 +52,44 @@ public struct BolddeskSDK {
   @discardableResult
   public static func processRemoteNotification(userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
   public static func navigateToTicketList()
+}
+public struct BolddeskSDKHome {
+  public static func setHeaderLogo(logoURL: Swift.String)
+  public static func set(headerName: Swift.String = "", headerDescription: Swift.String = "", kbTitle: Swift.String = "", kbDescription: Swift.String = "", ticketTitle: Swift.String = "", ticketDescription: Swift.String = "", SubmitButtonText: Swift.String = "")
+  public static func setSubmitTicket(formTitle: Swift.String = "", submitButtonText: Swift.String = "")
+}
+public protocol CustomTagsFieldDelegate : AnyObject {
+  func tagsFieldDidChange(_ tagsField: BolddeskSupportSDK.CustomTagsField, tags: [Swift.String])
+  func tagsFieldDidBeginEditing(_ tagsField: BolddeskSupportSDK.CustomTagsField)
+  func tagsFieldDidEndEditing(_ tagsField: BolddeskSupportSDK.CustomTagsField)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CustomTagsField : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var placeholder: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var isDisabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var tags: [Swift.String] {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any BolddeskSupportSDK.CustomTagsFieldDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency public func addTag(_ text: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func removeTag(_ text: Swift.String)
+  @objc deinit
+}
+extension BolddeskSupportSDK.CustomTagsField : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 public enum SDKTheme {
   case light
@@ -94,7 +134,6 @@ public enum ResourceManager {
   public static func registerFonts(_ fontFileNames: [Swift.String])
   public static func localized(_ key: Swift.String, value: Swift.String = "", comment: Swift.String = "") -> Swift.String
 }
-
 
 
 
