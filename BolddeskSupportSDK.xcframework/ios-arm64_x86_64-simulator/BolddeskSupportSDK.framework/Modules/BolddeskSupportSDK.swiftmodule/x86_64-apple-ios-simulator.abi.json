@@ -189,8 +189,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "applyDefaultFont",
-            "printedName": "applyDefaultFont",
+            "name": "apppySystemFontSize",
+            "printedName": "apppySystemFontSize",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -200,8 +200,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18BolddeskSupportSDK0aC0V16applyDefaultFontSbvpZ",
-            "mangledName": "$s18BolddeskSupportSDK0aC0V16applyDefaultFontSbvpZ",
+            "usr": "s:18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvpZ",
+            "mangledName": "$s18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvpZ",
             "moduleName": "BolddeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -224,8 +224,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18BolddeskSupportSDK0aC0V16applyDefaultFontSbvgZ",
-                "mangledName": "$s18BolddeskSupportSDK0aC0V16applyDefaultFontSbvgZ",
+                "usr": "s:18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvgZ",
+                "mangledName": "$s18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvgZ",
                 "moduleName": "BolddeskSupportSDK",
                 "static": true,
                 "implicit": true,
@@ -249,8 +249,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18BolddeskSupportSDK0aC0V16applyDefaultFontSbvsZ",
-                "mangledName": "$s18BolddeskSupportSDK0aC0V16applyDefaultFontSbvsZ",
+                "usr": "s:18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvsZ",
+                "mangledName": "$s18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvsZ",
                 "moduleName": "BolddeskSupportSDK",
                 "static": true,
                 "implicit": true,
@@ -268,8 +268,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18BolddeskSupportSDK0aC0V16applyDefaultFontSbvMZ",
-                "mangledName": "$s18BolddeskSupportSDK0aC0V16applyDefaultFontSbvMZ",
+                "usr": "s:18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvMZ",
+                "mangledName": "$s18BolddeskSupportSDK0aC0V19apppySystemFontSizeSbvMZ",
                 "moduleName": "BolddeskSupportSDK",
                 "static": true,
                 "implicit": true,
@@ -382,8 +382,8 @@
           },
           {
             "kind": "Function",
-            "name": "logOut",
-            "printedName": "logOut()",
+            "name": "logout",
+            "printedName": "logout()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -392,8 +392,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BolddeskSupportSDK0aC0V6logOutyyFZ",
-            "mangledName": "$s18BolddeskSupportSDK0aC0V6logOutyyFZ",
+            "usr": "s:18BolddeskSupportSDK0aC0V6logoutyyFZ",
+            "mangledName": "$s18BolddeskSupportSDK0aC0V6logoutyyFZ",
             "moduleName": "BolddeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -403,8 +403,8 @@
           },
           {
             "kind": "Function",
-            "name": "LoginWithJWTToken",
-            "printedName": "LoginWithJWTToken(jwtToken:_:_:)",
+            "name": "loginWithJWTToken",
+            "printedName": "loginWithJWTToken(jwtToken:_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -489,8 +489,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BolddeskSupportSDK0aC0V17LoginWithJWTToken8jwtToken__ySS_ySSSgcSgAGtFZ",
-            "mangledName": "$s18BolddeskSupportSDK0aC0V17LoginWithJWTToken8jwtToken__ySS_ySSSgcSgAGtFZ",
+            "usr": "s:18BolddeskSupportSDK0aC0V17loginWithJWTToken8jwtToken__ySS_ySSSgcSgAGtFZ",
+            "mangledName": "$s18BolddeskSupportSDK0aC0V17loginWithJWTToken8jwtToken__ySS_ySSSgcSgAGtFZ",
             "moduleName": "BolddeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -715,8 +715,8 @@
           },
           {
             "kind": "Function",
-            "name": "showSubmitTicket",
-            "printedName": "showSubmitTicket()",
+            "name": "showCreateTicket",
+            "printedName": "showCreateTicket()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -725,8 +725,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BolddeskSupportSDK0aC0V16showSubmitTicketyyFZ",
-            "mangledName": "$s18BolddeskSupportSDK0aC0V16showSubmitTicketyyFZ",
+            "usr": "s:18BolddeskSupportSDK0aC0V16showCreateTicketyyFZ",
+            "mangledName": "$s18BolddeskSupportSDK0aC0V16showCreateTicketyyFZ",
             "moduleName": "BolddeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -736,8 +736,8 @@
           },
           {
             "kind": "Function",
-            "name": "showHome",
-            "printedName": "showHome()",
+            "name": "showHomeDashboard",
+            "printedName": "showHomeDashboard()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -746,8 +746,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BolddeskSupportSDK0aC0V8showHomeyyFZ",
-            "mangledName": "$s18BolddeskSupportSDK0aC0V8showHomeyyFZ",
+            "usr": "s:18BolddeskSupportSDK0aC0V17showHomeDashboardyyFZ",
+            "mangledName": "$s18BolddeskSupportSDK0aC0V17showHomeDashboardyyFZ",
             "moduleName": "BolddeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -952,8 +952,8 @@
           },
           {
             "kind": "Function",
-            "name": "set",
-            "printedName": "set(headerName:headerDescription:kbTitle:kbDescription:ticketTitle:ticketDescription:SubmitButtonText:)",
+            "name": "setHomeDashboardContent",
+            "printedName": "setHomeDashboardContent(headerName:headerDescription:kbTitle:kbDescription:ticketTitle:ticketDescription:submitButtonText:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1011,43 +1011,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BolddeskSupportSDK0A7SDKHomeV3set10headerName0F11Description7kbTitle0iH006ticketJ00kH016SubmitButtonTextySS_S6StFZ",
-            "mangledName": "$s18BolddeskSupportSDK0A7SDKHomeV3set10headerName0F11Description7kbTitle0iH006ticketJ00kH016SubmitButtonTextySS_S6StFZ",
-            "moduleName": "BolddeskSupportSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setSubmitTicket",
-            "printedName": "setSubmitTicket(formTitle:submitButtonText:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18BolddeskSupportSDK0A7SDKHomeV15setSubmitTicket9formTitle16submitButtonTextySS_SStFZ",
-            "mangledName": "$s18BolddeskSupportSDK0A7SDKHomeV15setSubmitTicket9formTitle16submitButtonTextySS_SStFZ",
+            "usr": "s:18BolddeskSupportSDK0A7SDKHomeV23setHomeDashboardContent10headerName0I11Description7kbTitle0lK006ticketM00nK016submitButtonTextySS_S6StFZ",
+            "mangledName": "$s18BolddeskSupportSDK0A7SDKHomeV23setHomeDashboardContent10headerName0I11Description7kbTitle0lK006ticketM00nK016submitButtonTextySS_S6StFZ",
             "moduleName": "BolddeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -1608,7 +1573,8 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -2246,52 +2212,6 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "textField",
-            "printedName": "textField(_:shouldChangeCharactersIn:replacementString:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UITextField",
-                "printedName": "UIKit.UITextField",
-                "usr": "c:objc(cs)UITextField"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "_NSRange",
-                "printedName": "Foundation._NSRange",
-                "usr": "c:@S@_NSRange"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BolddeskSupportSDK@objc(cs)CustomTagsField(im)textField:shouldChangeCharactersInRange:replacementString:",
-            "mangledName": "$s18BolddeskSupportSDK15CustomTagsFieldC04textF0_24shouldChangeCharactersIn17replacementStringSbSo06UITextF0C_So8_NSRangeVSStF",
-            "moduleName": "BolddeskSupportSDK",
-            "objc_name": "textField:shouldChangeCharactersInRange:replacementString:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2302,6 +2222,7 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
@@ -4943,105 +4864,91 @@
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 238,
+      "offset": 241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6893,
+      "offset": 6896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6928,
+      "offset": 6931,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 13468,
+      "offset": 13480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 13500,
+      "offset": 13512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 18920,
+      "offset": 18932,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 549,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 581,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 583,
+      "offset": 603,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 631,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 669,
+      "offset": 689,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
-      "offset": 700,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
-      "kind": "StringLiteral",
-      "offset": 1076,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
-      "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 720,
       "length": 2,
       "value": "\"\""
     },
@@ -6105,119 +6012,112 @@
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 6085,
-      "length": 2,
-      "value": "\"\""
+      "offset": 6112,
+      "length": 4,
+      "value": "\"CC\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6115,
+      "offset": 6144,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 8019,
+      "offset": 8316,
       "length": 10,
-      "value": "\"Enter cc\""
+      "value": "\"Enter CC\""
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8128,
+      "offset": 8429,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "Array",
-      "offset": 8291,
+      "offset": 8596,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "Array",
-      "offset": 8512,
+      "offset": 8836,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8554,
+      "offset": 8882,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8595,
+      "offset": 8923,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8634,
+      "offset": 8962,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8680,
+      "offset": 9008,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8718,
+      "offset": 9046,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8765,
+      "offset": 9093,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11632,
+      "offset": 12051,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11762,
+      "offset": 12190,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11841,
+      "offset": 12269,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12055,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/Common\/CCTextFieldView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12124,
+      "offset": 12495,
       "length": 1,
       "value": "1"
     },
@@ -15772,7 +15672,7 @@
     {
       "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BolddeskSupportSDK\/BolddeskSupportSDK\/View\/TicketPropertiesView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12698,
+      "offset": 12589,
       "length": 4,
       "value": "true"
     },
