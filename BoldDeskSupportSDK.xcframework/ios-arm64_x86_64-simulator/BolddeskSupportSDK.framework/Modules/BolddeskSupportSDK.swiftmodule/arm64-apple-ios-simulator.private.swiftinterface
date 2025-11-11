@@ -27,7 +27,7 @@ public struct BDPortalConfiguration {
   public static var customFontName: Swift.String?
 }
 public struct BolddeskSDK {
-  public static var appySystemFontSize: Swift.Bool
+  public static var applySystemFontSize: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(appId: Swift.String, brandURl: Swift.String, _ successCallback: ((Swift.String?) -> Swift.Void)? = nil, _ errorCallback: ((Swift.String?) -> Swift.Void)? = nil)
   #endif

@@ -189,8 +189,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "appySystemFontSize",
-            "printedName": "appySystemFontSize",
+            "name": "applySystemFontSize",
+            "printedName": "applySystemFontSize",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -200,8 +200,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvpZ",
-            "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvpZ",
+            "usr": "s:18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvpZ",
+            "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvpZ",
             "moduleName": "BoldDeskSupportSDK",
             "static": true,
             "declAttributes": [
@@ -224,8 +224,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvgZ",
-                "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvgZ",
+                "usr": "s:18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvgZ",
+                "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvgZ",
                 "moduleName": "BoldDeskSupportSDK",
                 "static": true,
                 "implicit": true,
@@ -249,8 +249,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvsZ",
-                "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvsZ",
+                "usr": "s:18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvsZ",
+                "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvsZ",
                 "moduleName": "BoldDeskSupportSDK",
                 "static": true,
                 "implicit": true,
@@ -268,8 +268,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvMZ",
-                "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V18appySystemFontSizeSbvMZ",
+                "usr": "s:18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvMZ",
+                "mangledName": "$s18BoldDeskSupportSDK08BolddeskD0V19applySystemFontSizeSbvMZ",
                 "moduleName": "BoldDeskSupportSDK",
                 "static": true,
                 "implicit": true,
@@ -4891,98 +4891,98 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 191,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 240,
+      "offset": 241,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8133,
+      "offset": 8134,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8168,
+      "offset": 8169,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 14238,
+      "offset": 14239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 14270,
+      "offset": 14271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDK.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20023,
+      "offset": 20024,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BoldDeskSDK\/BolddeskSDKHome.swift",
+      "filePath": "\/Users\/mohammedismailsameer\/Desktop\/BoldDeskSupportSDK\/BoldDeskSupportSDK\/BolddeskSDK\/BolddeskSDKHome.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 2,
